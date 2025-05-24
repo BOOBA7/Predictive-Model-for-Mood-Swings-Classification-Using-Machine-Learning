@@ -1,0 +1,39 @@
+Validation Plan
+1. Data Splitting
+Split the dataset into training, validation, and test sets to ensure unbiased model evaluation.
+
+Use stratified sampling to maintain the distribution of the target classes across splits.
+
+2. Performance Metrics
+Evaluate the model using multiple metrics suited for multi-class classification:
+
+Accuracy
+
+Precision, Recall, F1-score per class
+
+Confusion matrix analysis to understand misclassifications
+
+Additionally, compute metrics related to fairness (e.g., True Negative Rate, False Positive Rate) across sensitive groups such as gender.
+
+3. Cross-Validation
+Perform k-fold cross-validation on the training set to assess model stability and robustness.
+
+Use the validation set to tune hyperparameters and prevent overfitting.
+
+4. Fairness Assessment
+Use fairness auditing tools (e.g., Aequitas) to detect and quantify potential biases across sensitive attributes.
+
+Compare performance metrics between groups (e.g., Male vs Female) to ensure equitable treatment.
+
+5. Statistical Significance Testing
+Apply significance tests to verify whether observed differences in performance or fairness metrics are statistically meaningful.
+
+6. Model Interpretability
+Analyze feature importance and model explanations to understand decision drivers.
+
+Validate that the model’s behavior aligns with domain knowledge and ethical considerations.
+
+7. Limitations and Monitoring
+Document known limitations, such as the absence of patient identifiers and potential data dependencies.
+
+Plan for ongoing monitoring of model performance and fairness once deployed.
