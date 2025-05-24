@@ -1,0 +1,19 @@
+How the Model Works – User Explanation
+Our model is designed to predict mood swings based on information collected during medical consultations. Here is how it works in simple terms:
+
+Input Data:
+The model takes as input various pieces of information about the patient’s condition and background, such as clinical symptoms, demographic details, and responses collected during consultations.
+
+Data Processing:
+Before making predictions, the model processes this data to understand the relationships between different factors. It looks for patterns and connections that are not always obvious.
+
+Prediction:
+Using these patterns, the model predicts the likelihood that a patient is experiencing a certain level of mood swings, classified into three categories (for example: low, medium, high).
+
+Output:
+The model outputs a classification that helps healthcare professionals better understand the patient’s mental state and make informed decisions.
+
+Fairness and Accuracy:
+Special care was taken to ensure the model treats all patients fairly, regardless of gender or other sensitive factors. The model was tested extensively to confirm its accuracy and fairness.
+
+This approach allows the model to assist clinicians by providing an additional, data-driven perspective on mood swings, supporting better diagnosis and treatment planning.
